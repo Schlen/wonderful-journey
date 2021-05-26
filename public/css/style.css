@@ -1,0 +1,210 @@
+.welcome{
+    background-color: #e4dede;
+    height: 330px;
+    width: auto;
+    margin: 25px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.welcome .h1{
+    font-size: 80px;
+    margin: 10px 0;
+    font-weight: normal;
+}
+
+.welcome .h3{
+    font-size: 25px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.content{
+    width: 1280px;
+    height: auto;
+    margin: 0 auto 50px auto;
+    padding: 0 20px;
+    color: #000000;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content .judul-category{
+    font-size: 42px;
+}
+
+.item{
+    width: 405px;
+    margin: 0px;
+    padding: 15px 10px;
+}
+
+.item .judul{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.item .deskripsi{
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.item .category{
+    font-size: 14px;
+    font-style: italic;
+}
+
+.article-content{
+    padding: 10px 20px;
+}
+
+.article-content .category{
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.article-content .judul{
+    font-size: 42px;
+    margin-bottom: 8px;
+}
+
+.article-content .image img{
+    height: 400px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.article-content .description{
+    font-size: 18px;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.button{
+    padding: 10px 24px;
+    background-color: #ffffff;
+    border: 1px solid #25b0e7;
+    border-radius: 5px;
+    outline:none
+}
+
+.button:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: #25b0e7;
+    color: #ffffff;
+}
+
+.button:hover a{
+    color: #ffffff;
+}
+
+.button:active{
+    outline: none;
+}
+
+.box{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.box .label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.box .input{
+    margin-bottom: 20px;
+}
+
+.box .input input{
+    width: 350px;
+    padding: 5px 10px;
+    outline: none;
+} 
+
+.box .input select{
+    width: 375px;
+    padding: 8px 10px;
+}
+
+.box button:hover{
+    transition: 0.2s;
+    background-color: #25b0e7;
+    color: #ffffff;
+}
+
+.box .create-button{
+    margin-bottom: 20px;
+}
+
+.userTable, .adminTable{
+    border-spacing: 0;
+}
+
+.userTable th, .userTable td, .adminTable th, .adminTable td{
+    text-align: start;
+    padding: 8px 20px;
+}
+
+.userTable th, adminTable th{
+    border-bottom: #000000 1px solid;
+}
+.userTable td, adminTable td{
+    border-bottom: grey 1px solid;
+    min-width: 250px;
+}
+
+
+.adminTable td:nth-child(3){
+    min-width: 140px;
+}
+
+.userTable td:nth-child(2){
+    min-width: 140px;
+}
+
+.userTable tr:first-child td, .adminTable tr:first-child td{
+    border-top: #000000 1px solid;
+}
+
+.userTable tr:last-child td, .adminTable tr:first-child td{
+    border-bottom: 0;
+}
+
+.navigation ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin-right: 10px;
+    float: right;
+
+}
+
+.navigation ul li{
+    font-size: 20px;
+    padding: 9px 15px;
+    border: 1px solid #000000;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.navigation .active{
+    background-color: #9cd6ec;
+}
+
+
+
+
+

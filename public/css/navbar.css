@@ -1,0 +1,94 @@
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+}
+
+.header{
+    background-color: #000000;
+    min-width: 1280px;
+}
+
+.link, .link:hover{
+    text-decoration: none;
+}
+
+.nav{
+    width: 1280px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    display: flex;
+}
+
+.right-nav-bar{
+    margin-left: auto;
+}
+
+.right-nav-bar ul, .left-nav-bar ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.right-nav-bar ul li, .left-nav-bar ul li{
+    display: inline-block;
+    width: fit-content;
+    min-width: 120px;
+    list-style: none;
+    height: 100px;
+    line-height: 100px;
+    color: #c7c1c1;;
+    background-color: #000000;
+
+    text-align: center;
+
+    padding: 0;
+    margin: 0;
+}
+
+.left-nav-bar li a{
+    color: #c7c1c1;
+}
+
+.left-nav-bar li a:hover{
+    color: #ffffff;
+}
+
+.right-nav-bar li:hover, .left-nav-bar li:hover{
+    color: #ffffff;
+}
+
+.left-nav-bar ul ul{
+    display: none;
+}
+
+.left-nav-bar li:hover ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.right-nav-bar .one-line{
+    display: flex;
+}
+
+.right-nav-bar .img, .right-nav-bar .img-login{
+    display: flex;
+    align-items: center;
+}
+
+.right-nav-bar .img img{
+    height: 24px;
+    width: auto;
+    margin: 0 5px
+}
+
+.right-nav-bar .img-login img{
+    height: 21px;
+    width: auto;
+    margin: 0 10px;
+}
+
+
